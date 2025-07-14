@@ -1,0 +1,17 @@
+*.class
+*.log
+*.ctxt
+
+target/
+
+*.iml
+*.ipr
+*.iws
+out/
+
+test-output/
+*.ec
+
+*.jar
+*.war
+*.ear

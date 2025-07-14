@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: local
+
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:29092
+      group-id: weather-consumer-group
+      auto-offset-reset: earliest
